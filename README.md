@@ -31,6 +31,16 @@ Parking means **hiding an app or minimizing a chosen window**. It does not suspe
 
 This is a development preview, not a notarized end-user release. Builds are signed locally; distribution signing and notarization are still to do. No license has been selected for this repository yet.
 
+## Website and download
+
+[Visit the website](https://leolunelove.github.io/Rail/) · [Download Rail 0.1.1 for Apple silicon](https://leolunelove.github.io/Rail/downloads/Rail-0.1.1-arm64.zip)
+
+Requires macOS 14 or later. Unzip the download and move Rail.app to Applications. This experimental build is locally signed and **not notarized**; macOS may block it. Installation on another Mac remains unverified. You can also build from source below.
+
+[SHA-256 checksum](https://leolunelove.github.io/Rail/downloads/Rail-0.1.1-arm64.zip.sha256)
+
+The website and versioned download are hosted by GitHub Pages from this repository’s `docs` folder.
+
 ## Build locally
 
 Use a Mac with Swift 6 or newer (Xcode or Apple's command-line tools):
